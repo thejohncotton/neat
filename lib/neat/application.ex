@@ -10,7 +10,7 @@ defmodule Neat.Application do
       children = [
         # Starts a worker by calling: Neat.Worker.start_link(arg)
         # {Neat.Worker, arg}
-        {Plug.Cowboy, scheme: :http, plug: NeatWeb.Router, options: [port: 8080]}
+        {Plug.Cowboy, scheme: :http, plug: NeatWeb.Router, options: [port: 4000]}
       ]
   
       # See https://hexdocs.pm/elixir/Supervisor.html

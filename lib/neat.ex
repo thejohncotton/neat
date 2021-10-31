@@ -3,16 +3,4 @@ defmodule Neat do
   Documentation for `Neat`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Neat.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end

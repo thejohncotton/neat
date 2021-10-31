@@ -75,7 +75,7 @@ RUN chown nobody:nobody /app
 
 USER nobody:nobody
 
-COPY --from=build --chown=nobody:nobody /app/_build/prod/rel/hello_elixir ./
+COPY --from=build --chown=nobody:nobody /app/_build/prod/rel/neat ./
 
 ENV HOME=/app
 ENV MIX_ENV=prod
